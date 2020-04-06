@@ -227,7 +227,7 @@ Inject 64 bit shellcode from CSharp .DLL. The shellcode payload is a C coded .DL
 
 Compile: Both CSharp and C code must compile to 64 bit, insert entrypoint under exec
 
-Execution: rundll32 InSSP.dll,exec
+Execution: rundll32 InSSP.dll,exec (This require admin)
 
 InSSP.cs:
 
